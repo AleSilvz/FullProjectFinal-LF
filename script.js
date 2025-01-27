@@ -118,7 +118,7 @@ function formatString(value) {
 
 function openTableClient() {
   localStorage.setItem("click", currentClient);
-  location.href = "/pages home/index.html";
+  location.href = "./pages home/index.html";
 }
 
 function pageReload() {

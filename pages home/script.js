@@ -12,7 +12,7 @@ const nome = localStorage.getItem("click");
 const clientes = JSON.parse(localStorage.getItem("LF")) || {};
 
 botaoVoltar.addEventListener("click", () => {
-  location.href = "/index.html";
+  location.href = "../index.html";
 });
 
 window.onload = () => {
@@ -25,7 +25,7 @@ function care() {
 }
 
 adicionarProdutos.addEventListener("click", () => {
-  location.href = "/page produtos/index.html";
+  location.href = "../page produtos/index.html";
 });
 
 function item() {
@@ -131,7 +131,7 @@ btn_concluir.onclick = () => {
 
   localStorage.setItem("LF", JSON.stringify(clientes));
 
-  location.href = "/index.html";
+  location.href = "../index.html";
 };
 
 function comprovante() {
@@ -157,5 +157,5 @@ function comprovante() {
 concluir.onclick = () => {
   comprovante();
   localStorage.setItem("Valor", Number(totalValue));
-  location.href = "/page pagamento/index.html";
+  location.href = "../page pagamento/index.html";
 };

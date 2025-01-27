@@ -11,7 +11,7 @@ window.onload = () => {
 };
 
 botaoVoltarHome.addEventListener("click", () => {
-  location.href = "/pages home/index.html";
+  location.href = "../pages home/index.html";
 });
 
 pesquisar_item.addEventListener("input", (event) => {
@@ -92,7 +92,7 @@ function adicionarItem() {
 }
 
 function voltar() {
-  location.href = "/pages home/index.html";
+  location.href = "../pages home/index.html";
 }
 
 function limparLocalProdutos() {

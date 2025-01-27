@@ -45,5 +45,5 @@ function imprimirComprovante() {
 }
 
 btn_voltar.addEventListener("click", () => {
-  location.href = "/pages home/index.html";
+  location.href = "../pages home/index.html";
 });
