@@ -1,0 +1,72 @@
+@import url("/style.css");
+
+.container-btn-voltar {
+    width: var(--width);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+#btn_voltar {
+    font-size: 2.2rem;
+}
+
+.container-btn-voltar img {
+    width: 80px;
+    padding-right: 10px;
+}
+
+.container-input-adicionar {
+    margin-top: 5%;
+    position: relative;
+    width: calc(var(--width) - 5%);
+}
+
+.container-btn {
+    width: var(--width);
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.3s;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#itens {
+    margin-top: 3%;
+    width: calc(var(--width) - 5%);
+    max-height: 72%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.container-item {
+    margin: 5px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E7E5E5;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.selecionado {
+    transition: 0.3s;
+    transform: scale(1.08);
+    background-color: rgb(235, 188, 34);
+}

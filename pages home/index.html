@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Full Project - LF</title>
+</head>
+<body>
+    <div class="container-btn-voltar">
+        <ion-icon id="btn_voltar" name="chevron-back-outline"></ion-icon>
+        <img src="/assents/logo.svg" alt="logo-lf">
+    </div>
+
+    <div id="container_perfil">
+        <div class="perfil">
+            <ion-icon name="person"></ion-icon>
+        </div>
+        <div class="name">
+            <p>Bem-vindo!</p>
+            <h1 id="nome_clientes">ALE</h1>
+        </div>
+
+        <ion-icon class="adicionar-itens" name="chevron-back-outline"></ion-icon>
+    </div>
+
+    <div id="produtos_adicionados">
+
+    </div>
+
+    <div id="total">
+        <!-- <button id="btn_concluir">Concluir</button> -->
+        <ion-icon id="btn_concluir" name="checkmark-done"></ion-icon>
+        
+        <div>
+            <h1>Total <span id="valor">R$ 0,00</span></h1>
+        </div>
+
+        <ion-icon id="concluir" name="send"></ion-icon>
+    </div>
+</body>
+<script src="/itens.js"></script>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

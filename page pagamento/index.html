@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Full Project - LF</title>
+</head>
+<body>
+    <div class="container-btn-voltar">
+        <ion-icon id="btn_voltar" name="chevron-back-outline"></ion-icon>
+        <img src="/assents/logo.svg" alt="logo-lf">
+    </div>
+
+    <div>
+        Métado de Pagamento:
+    </div>
+    
+    <div class="div-qr-code">
+        QR code
+        <ion-icon name="qr-code"></ion-icon>
+    </div>
+
+    <div class="div-comprovante div-qr-code" onclick="imprimirComprovante()">
+        Comprovante
+        <ion-icon name="document"></ion-icon>
+    </div>
+    
+    <div>
+    Total: <span id="valorPagamento"></span> 
+    </div>
+    
+</body>
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

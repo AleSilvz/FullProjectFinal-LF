@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Full Project - LF</title>
+</head>
+<body>
+    <div class="container-btn-voltar">
+        <ion-icon id="btn_voltar" name="chevron-back-outline"></ion-icon>
+        <img src="/assents/logo.svg" alt="logo-lf">
+    </div>
+
+    <div class="container-input-adicionar">
+        <input id="pesquisar_item" class="input" type="text" placeholder="Nome do Produto..." autocomplete="off">
+        <ion-icon style="display: flex;" class="styleIcon" id="searchIcon" name="search"></ion-icon>
+    </div>
+
+    <div class="container-btn">
+        <button class="btn-categorias" value="bebidas">Bebidas</button>
+        <button class="btn-categorias" value="comidas">Comidas</button>
+        <button class="btn-categorias" value="espetos">Espetos</button>
+        <button class="btn-categorias" value="cachacas">Cachaças</button>
+        <button onclick="allProdutos()">All</button>
+    </div>
+
+    <div id="itens">
+        
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="/itens.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
